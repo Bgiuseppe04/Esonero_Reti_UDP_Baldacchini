@@ -11,9 +11,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
+#include <time.h>
 #if defined WIN32
 #include <winsock.h>
-#include <time.h>
 #else
 #define closesocket close
 #include <sys/socket.h>
